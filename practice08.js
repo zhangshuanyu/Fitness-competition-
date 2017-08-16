@@ -6,6 +6,7 @@
 arr = ['a','ab','ed','da','a','ed','b'];
 function a(arr) {
     var result = [];
+    arr.sort();
     for (var i = 0; i < arr.length; i++) {
         if (arr[i] === arr[i + 1]) {
             result.push(arr[i]);
